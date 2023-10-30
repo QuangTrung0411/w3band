@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE TOÀN BUG</title>
+    <link rel="stylesheet" href="styledemo.css">
+    <link rel="stylesheet" href="./assets/themify-icons-font/themify-icons/themify-icons.css">
+</head>
+
+<body>
+    <div class="main">
+        <!-- START HEADER -->
+        <div class="header">
+            <ul class="nav">
+                <li><a href="">Home</a></li>
+                <li><a href="">Band</a></li>
+                <li><a href="">Tour</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">
+                        More
+                        <i class=" nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="sub-nav">
+                        <li><a href="">Merchandise</a></li>
+                        <li><a href="">Extras</a></li>
+                        <li><a href="">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+        </div>
+        <!-- END HEADER -->
+
+        <!-- START SLIDER -->
+        <div class="slider">
+            <div class="text-slider">
+                <h2 class="text-oneslider">Chicago</h2>
+                <p class="text-twoslider">Thank you, Chicago - A night we won't forget.</p>
+            </div>
+        </div>
+        <!-- END SLIDER -->
+
+        <!-- START CONTENT -->
+        <div class="content">
+            <!-- START THE BAND -->
+            <div class="content-section">
+                <h2 class="section-heading">THE BAND</h2>
+                <p class="section-sub-heading">We love music</p>
+                <p class="about-text">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                    est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.</p>
+                <div class="member-list">
+
+                    <div class="member-item">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/band/member1.jpg" alt="Name" class="member-img">
+                    </div>
+
+                    <div class="member-item">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/band/member1.jpg" alt="Name" class="member-img">
+                    </div>
+
+                    <div class="member-item">
+                        <p class="member-name">Name</p>
+                        <img src="./assets/img/band/member1.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="clear"></div>
+
+                </div>
+                <!-- End THE BAND -->
+            </div>
+            <!-- START TOUR DATES -->
+            <div class="tour">
+                <div class="content-section">
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    <ul class="tickets-list">
+                        <li>September <span class="sold-out">Sold-out</span></li>
+                        <li>October <span class="sold-out">Sold-out</span></li>
+                        <li>November <span class="quatity">3</span></li>
+                    </ul>
+
+                    <div class="places">
+                        <div class="places-item">
+                            <img src="/assets/img/place/place1.jpg" alt="New York" class="places-img">
+                            <div class="places-body">
+                                <h3 class="places-heading">New York</h3>
+                                <p class="places-time">Fri 27 Nov 2016</p>
+                                <p class="places-content">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="places-btn js-buy-tickets">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="places-item">
+                            <img src="/assets/img/place/place2.jpg" alt="New York" class="places-img">
+                            <div class="places-body">
+                                <h3 class="places-heading">New York</h3>
+                                <p class="places-time">Fri 28 Nov 2016</p>
+                                <p class="places-content">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="places-btn js-buy-tickets">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                        <div class="places-item">
+                            <img src="/assets/img/place/place3.jpg" alt="New York" class="places-img">
+                            <div class="places-body">
+                                <h3 class="places-heading">New York</h3>
+                                <p class="places-time">Fri 29 Nov 2016</p>
+                                <p class="places-content">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="places-btn js-buy-tickets">Buy Tickets</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- END TOUR DATES -->
+            <!-- START CONTACT  -->
+            
+        </div>
+
+        <div class="footer">
+
+        </div>
+
+    </div>
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <div class="modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>
+            <header class="modal-header">
+                <i class=" modal-heading-icon ti-bag"></i>
+                Tickets
+            </header>
+            <div class="modal-body">
+                <lable for="*" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Tickets, $15 per person
+                </lable>
+                <input id="*" type="text" class="modal-input" placeholder="How many?">
+
+                <label for="#" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send to
+                </label>
+                <input id="#" type="email" class="modal-input" placeholder="Enter email...?">
+                <button id="buy-tickets">
+                    Pay <i class="ti-check"></i>
+                </button>
+            </div>
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a href="">help?</a></p>
+            </footer>
+        </div>
+    </div>
+    <script>
+        // lưu class vào biến
+        const buyBtns = document.querySelectorAll('.js-buy-tickets')
+        const modal = document.querySelector('.js-modal')
+        const modalcontainer = document.querySelector('.js-modal-container')
+        const modalclose = document.querySelector('.js-modal-close')
+
+        // thêm class open vào modal
+        function buyticketss() {
+            modal.classList.add('open')
+        }
+        // gỡ class open vào modal
+        function buyticketssclose() {
+            modal.classList.remove('open')
+        }
+        //lặp qua từng thẻ button và nghe hành vi click
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', buyticketss)
+        }
+        // nghe hành vi click vào button close
+        modalclose.addEventListener('click', buyticketssclose)
+        modal.addEventListener('click', buyticketssclose)
+        modalcontainer.addEventListener('click', function (event) {
+            event.stopPropagation()
+        })
+    </script>
+</body>
+
+</html>
